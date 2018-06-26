@@ -1,0 +1,11 @@
+PUT /user HTTP/1.1
+Accept: */*
+authorization: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozNCwiZXhwIjoxNTIyODc5MTk1fQ.lsM2tqnfYVSitHtGuEv8bumC2udux3Bo-xql6quMKf4
+Content-Type: application/json
+Content-Length: 189
+Host: akstasy.xyz:3000
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.10.0
+
+{"notification":false,"device_id":"dAtiics-62s:APA91bGe80Z0uz1DKG_dChT_1cIA6kYkXGnmMWRtnM8ICv5VV0JR69-mk3ZEFjSdAZOsiQObByztCigGERadTZPha7X0N5SEKByc5hC1BgloSMspfhCeRv4Bsx0B06fPFOBTg7TlTWIU"}
