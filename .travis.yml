@@ -4,5 +4,7 @@ rvm:
 before_script:
  - ./add_psql.sh
 sudo: enabled
-
-   
+script:
+ - bundle exec rake db:create
+ - bundle exec rake db:migrate
+ - bundle exec rake db:seed
